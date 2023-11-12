@@ -1,0 +1,12 @@
+<hr />
+<div>First slot:</div>
+<ng-content></ng-content>
+<hr />
+<div>Second slot:</div>
+<ng-content select="[second]"></ng-content>
+<hr />
+
+<ng-container *ngIf="cond">
+  <span>Conditional Rendering: </span>
+  <span>ng-container</span>
+</ng-container>

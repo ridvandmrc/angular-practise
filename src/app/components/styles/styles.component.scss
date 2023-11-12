@@ -1,0 +1,12 @@
+::ng-deep p {
+  // apply all p
+  color: red;
+}
+
+:host(.active) {
+  font-weight: bold;
+}
+
+.test {
+  font-weight: bold;
+}
