@@ -1,0 +1,9 @@
+<section>
+  <h1>Bind component</h1>
+  <h1 [ngClass]="{ red: cond }">class binding red</h1>
+  <h2 [ngClass]="['red', 'blue']">class list</h2>
+  <h3 [class.red]="cond">class inner cond</h3>
+  <h4 [style.color]="cond ? 'red' : 'black'">style binding red</h4>
+
+  <button (click)="changeTheme()">Theme first</button>
+</section>

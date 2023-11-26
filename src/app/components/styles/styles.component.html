@@ -1,5 +1,6 @@
 <h2 [style.color]="headerColor">header</h2>
 <p [ngClass]="select">paragraph</p>
 <span [class.test]="cond">span</span>
+<div [class]="{ test: cond, color: cond }">div</div>
 <br />
 <button (click)="change()">change</button>

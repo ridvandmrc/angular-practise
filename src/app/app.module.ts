@@ -10,6 +10,8 @@ import { NgContainerComponent } from './components/content-projection/ng-contain
 import { InteractionComponent } from './components/interaction/interaction.component';
 import { LifecycleComponent } from './components/lifecycle/lifecycle.component';
 import { StylesComponent } from './components/styles/styles.component';
+import { StructuralDirective } from './directive/structural.directive';
+import { BindComponent } from './binding/binding.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +24,8 @@ import { StylesComponent } from './components/styles/styles.component';
     InteractionComponent,
     LifecycleComponent,
     StylesComponent,
+    StructuralDirective,
+    BindComponent,
   ],
   imports: [BrowserModule],
   providers: [],
